@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    font-family: "open sans";
+}
+@font-face {
+    font-family: "open sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "open sans";
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "open sans" sans-serif;
+    font-weight: normal;
+}
+.header {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.container {
+    margin: 0 auto;
+    width: 1300px;
+}
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-img {
+    padding: 18px 0;
+}
+.nav-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.nav-link {
+    text-decoration: none;
+    padding: 16px;
+    color: #000;
+    font-size: 15px;
+    font-weight: normal;
+}
+.tel {
+    background-color: #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.intro-content {
+    display: inline-block;
+    width: 470px;
+}
+.intro-title {
+    margin-top: 17px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.intro-description {
+    font-weight: normal;
+    font-size: 16px;
+}
+.button {
+    background: #00BAFC;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px;
+    color: #fff;
+}
+.container-services {
+    width: 719px;
+    text-align: center;
+}
+.services-text {
+    margin-top: 56px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.services-description {
+    font-weight: normal;
+    font-size: 16px;
+}
+.services-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 24px 0;
+    justify-content: center;
+}
+.services-item {
+    margin: 24px 35px;
+    list-style: none;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.center-button {
+    text-align: center;
+}
+.services-link {
+    color: #00BAFC;
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 16px;
+}
+.workout-container {
+    display: flex;
+    justify-content: center;
+}
+.workout-list {
+    padding: 0;
+}
+.workout-item {
+    display: flex;
+    list-style: none;
+    margin-top: 48px;
+}
+.workout-text {
+    width: 500px;
+}
+.workout-img-right {
+    padding-right: 32px;
+}
+.workout-img-left {
+    padding-left: 32px;
+}
+.order {
+    width: 100%;
+    margin-top: 56px;
+    padding: 56px 0;
+    background-color: #00BAFC;
+}
+.form {
+    margin: 24px auto 0;
+    width: 348px;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 5px;
+}
+.input {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+}
+.footer {
+    background-color: #191919;
+    padding-top: 56px;
+}
+.container-footer {
+    display: flex;
+}
+.container-footer-description {
+    width: 320px;
+}
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin-left: 100px;
+}
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+}
+.text {
+    color: #fff;
+}
+.top {
+    margin-top: 0;
+}
+.img-link {
+    margin-bottom: 8px;
+}
